@@ -149,6 +149,29 @@ a {
 	color: #94ddb1;
 }
 
+.about {
+	text-decoration: none;
+	color: #dbf9b1;
+	text-align: center;
+	padding-top: 15px;
+
+	animation-name: fadeUp;
+	animation-delay: 7.5s;
+	animation-duration: 3s;
+    transition-timing-function: ease-in;
+    animation-fill-mode: both;
+}
+
+.about:hover {
+	color: yellow;
+}
+
+.about a {
+	color: #dbf9b1;
+	text-decoration: none;
+	text-align: center;
+}
+
 .button {
 	margin-left: auto;
 	margin-right: auto;
